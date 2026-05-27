@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Students</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -12,7 +13,8 @@
         <a href="addstudents.html">Add Student</a>
         <a href="logout.html">Logout</a>
     </nav>
-    <hr>
+    <h1>Add Student</h1>
+
     <form action="./viewstudents.html"> 
         <label> Student Name:</label>
         <input type="text" required>
@@ -20,10 +22,15 @@
         <label>Id:</label>
         <input type="text" required>
         <br><br>
-        <label>Branch:</label>
-        <input type="text" required>
-        <br><br>
-        <button type="submit">submit</button>
+        <label>Branch:</label><br>
+        <select name="branch" id="branch">
+            <option value="CS">CS</option>
+            <option value="IT">IT</option>
+            <option value="CSE">CSE</option>
+            <option value="CSM">CSM</option>
+        </select required> <br> <br>
+        <br>
+        <button type="submit">Add Student</button>
     </form>
     
 </body>

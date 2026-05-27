@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Students</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -13,12 +14,44 @@
         <a href="logout.html">Logout</a>
     </nav>
     <br>
-    <hr>
-    <h1>Students    </h1>
-    <b><p>name          Id     Branch<br></p></b>
-    <p>Rehan        J2     csc   <a href="editstudent.html">edit</a> <a href="">delete</a></p>
-    <p>sainath        23     csc   <a href="editstudent.html">edit</a> <a href="">delete</a></p>
-    <p>prabath       25   csc   <a href="editstudent.html">edit</a> <a href="">delete</a></p>
+    <h1>Students  List  </h1>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Branch</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>2345</td>
+                <td>CS</td>
+                <td><a href="./editstudent.html">Edit</a> | <a href="">Delete</a></td>
+            </tr>
+            <tr>
+                <td>Sainath</td>
+                <td>A7ET</td>
+                <td>CS</td>
+                <td><a href="./editstudent.html">Edit</a> | <a href="">Delete</a></td>
+            </tr>
+            <tr>
+                <td>Rehan</td>
+                <td>J2</td>
+                <td>CS</td>
+                <td><a href="./editstudent.html">Edit</a> | <a href="">Delete</a></td>
+            </tr>
+            <tr>
+                <td>Rohit</td>
+                <td>J2</td>
+                <td>CS</td>
+                <td><a href="./editstudent.html">Edit</a> | <a href="">Delete</a></td>
+        </tbody>
+    </table>
+    
     
 </body>
 </html>
